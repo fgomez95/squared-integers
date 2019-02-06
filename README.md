@@ -5,7 +5,7 @@ It's time we see how powerful arrow functions are when processing data.
 Arrow functions work really well with higher order functions, such as map(), filter(), and reduce(), that take other functions as arguments for processing collections of data.
 
 Read the following code:
-```
+```javascript
 FBPosts.filter(function(post) {
   return post.thumbnail !== null && post.shares > 100 && post.likes > 500;
 })
